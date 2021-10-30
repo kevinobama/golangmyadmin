@@ -1,3 +1,11 @@
+It's very important that you have to do this at the first:
+
+go get github.com/go-sql-driver/mysql
+
+if you are in china,you need to change the proxy:
+go env -w GO111MODULE=on 
+go env -w GOPROXY=https://goproxy.cn,direc
+
 Implementation
 We’ll begin by connecting to a database we’ve set up on our local machine and then go on to perform some basic insert and select statements.
 
